@@ -1,0 +1,43 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    background-color: var(--accent-color-text);
+    color: var(--titles-text-color-first);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li{
+    margin: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    padding-inline-start: 0;
+    }
+a{
+    text-decoration: none;
+    cursor: pointer;
+    }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon{
+    fill: currentColor;
+}
+.section{
+    padding: 94px 0;
+}
