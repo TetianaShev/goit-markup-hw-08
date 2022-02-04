@@ -21,7 +21,8 @@
     border-radius: 50%;
     color: var(--clients-color);
 
-    transition: background-color 250ms var(--bezier-timing),fill 250ms var(--bezier-timing);
+    transition: background-color 250ms var(--bezier-timing),
+    fill 250ms var(--bezier-timing);
  
     &:hover,
     &:focus{

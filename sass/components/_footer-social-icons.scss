@@ -24,9 +24,10 @@
   width: 44px;
   height: 44px;
   margin-right: 10px;
-}
-.fsocial__item:last-child {
+
+&:last-child {
   margin-right: 0;
+}
 }
 .fsocial__link {
   display: flex;
@@ -41,20 +42,24 @@
 
   transition: fill 250ms var(--bezier-timing),
     background-color 250ms var(--bezier-timing);
-}
-.fsocial__icon {
-  fill: var(--accent-color-text);
-}
-.fsocial__link:hover,
-.fsocial__link:focus {
+
+&:hover,
+&:focus {
   fill: var(--accent-color-text);
   background-color: var(--accent-color-text);
 }
 
-.fsocial__link:hover .fsocial__icon,
-.fsocial__link:focus .fsocial__icon {
+&:hover .fsocial__icon,
+&:focus .fsocial__icon {
   fill: var(--accent-color-text);
 }
+}
+.fsocial__icon {
+  fill: var(--accent-color-text);
+}
+
+
+
 
 
 .fsocial__title {

@@ -1,7 +1,11 @@
-.photo {
+.section__ptn  {
     padding-top: 0px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (max-width: 1200px) {
+        display: none;
+      }
 }
 .photo{
     display: flex;
@@ -14,21 +18,21 @@
     margin-right: 0;
     }
 }
-.section__title{
-      color: var(--titles-text-color-first);
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.17;
-      text-align: center;
-      letter-spacing: 0.03em;
-} 
+// .section__title{
+//       color: var(--titles-text-color-first);
+//       font-weight: 700;
+//       font-size: 36px;
+//       line-height: 1.17;
+//       text-align: center;
+//       letter-spacing: 0.03em;
+// } 
 .photo__boxed{
     position: relative;
 }
 .photo-wrapper{
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 370px;
     height: 70px;
     display: flex;
     justify-content: center;
